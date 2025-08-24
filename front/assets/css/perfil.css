@@ -1,0 +1,85 @@
+body{
+    background-image: url('../img/img6.png');
+    background-size: cover;
+}
+
+/* HEADER */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    background-color: #0b070721;
+}
+.logo img{
+    width: 290px;
+    height: 70px;
+    margin: 15px 380px 0px -10px;
+}
+.menu a{
+    margin: 0px 0px 0px 35px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.menu a:hover{
+    color: #ffde59/*#c68516*/;
+    transition: 0.2s;
+}
+
+/* Profile */
+section{
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 100px;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 60px 380px;
+}
+.img img{
+    position: relative;
+    margin: -70px 0px 20px -30px;
+    border-style: solid;
+    border-color: #ffde59;
+    width: 180px;
+    border-radius: 100%;
+    height: 180px;
+}
+.username{
+    position: relative;
+    font-size: 30px;
+    margin: -150px 0px 0px 180px;
+}
+.change img{
+    width: 30px;
+    height: 30px;
+}
+.change{
+    margin: 20px 0px 0px 180px;
+    padding: 2px 3px;
+    border-radius: 30%;
+    background-color: #ffde59;
+    border-style: none;
+}
+section p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.info{
+    margin: 80px 0px 0px 0px;
+}
+.pass{
+    margin: 0px 0px 0px 30px;
+}
+.mail{
+    margin: -10px 0px 10px 30px;
+}
+.logout{
+    margin: 40px 0px 0px 0px;
+    padding: 13px 20px;
+    background-color: #c68516;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+}

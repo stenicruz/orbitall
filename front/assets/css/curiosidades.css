@@ -1,0 +1,395 @@
+body{
+    background-color: #030302;
+}
+
+/* HEADER */
+header{
+    background-image: url('../img/img5.png');
+    padding-bottom: 200px;
+}nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    background-color: #0b070721;
+}
+.logo img{
+    width: 290px;
+    height: 70px;
+    margin: 15px 380px 0px -10px;
+}
+.menu a{
+    margin: 0px 0px 0px 35px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.menu a:hover{
+    color: #ffde59/*#c68516*/;
+    transition: 0.2s;
+}
+.txt{
+    position: relative;
+    margin: 190px 0px 0px 290px;
+    font-size: 60px;
+}
+.txt p{
+    color: white;
+    font-size: 40px;
+    margin: 0px 0px 0px 45px;
+}
+.txt .h1{
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 30px;
+    font-size: 100px;
+    color: #c68516;
+    font-weight: 900;
+    text-shadow:
+    2px 2px 0 #c685166c,
+    4px 4px 0 #ffde5956,
+    6px 6px 0 #ffde592c;
+}
+
+/* PLANETS */
+.planets{
+    margin: 60px 0px 0px 0px;
+}
+.planets h1{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 35px;
+    margin: 0px 0px 50px 40px
+}
+.planets p{
+    font-family: 'Orbitron', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-size: 45px;
+    margin: 130px 0px 0px 40px;
+}
+.planets .d1{
+    margin: 0px 0px 0px 10px;
+}
+.planets .d1 div{
+    display: inline-block;
+    margin: 0px 0px 1px 0px;
+}
+.earth{
+    background-color: #c6851631;
+    padding: 200px 100px;
+    width: 331px;
+    height: 530px;
+}
+.earth img{
+    width: 328px;
+    margin: -199px 0px 0px -99px;
+}
+.earth .title{
+    margin: -190px 0px 130px -70px;
+    font-size: 55px;
+}
+.earth .txt{
+    position: absolute;
+    color: white;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    width: 23%;
+    margin: 10px 0px 0px -90px;
+}
+.mars{
+    background-color: #c61c164f;
+    padding: 200px 100px;
+    width: 330px;
+    height: 530px;
+}
+.mars img{
+    width: 328px;
+    margin: -199px 0px 0px -99px;
+    height: 324px;
+}
+.mars .title{
+    margin: -190px 0px 0px -70px;
+    font-size: 55px;
+}
+.mars .txt{
+    position: absolute;
+    color: white;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    width: 23%;
+    margin: 140px 0px 0px -90px;
+}
+.mercury{
+    background-color: #9b875062;
+    padding: 200px 100px;
+    width: 330px;
+    height: 530px;
+}
+.mercury img{
+    width: 328px;
+    margin: -199px 0px 0px -99px;
+    height: 324px;
+}
+.mercury .title{
+    margin: -190px 0px 0px -70px;
+    font-size: 55px;
+}
+.mercury .txt{
+    position: absolute;
+    color: white;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    width: 23%;
+    margin: 140px 0px 0px -90px;
+}
+.venus{
+    background-color: #c67a168a;
+    padding: 200px 100px;
+    width: 330px;
+    height: 530px;
+}
+.venus img{
+    width: 328px;
+    margin: -199px 0px 0px -99px;
+    height: 324px;
+}
+.venus .title{
+    margin: -190px 0px 0px -70px;
+    font-size: 55px;
+}
+.venus .txt{
+    position: absolute;
+    color: white;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    width: 23%;
+    margin: 140px 0px 0px -90px;
+}
+.jupiter{
+    background-color: rgba(85, 57, 29, 0.384);
+    padding: 200px 100px;
+    width: 330px;
+    height: 530px;
+}
+.jupiter img{
+    width: 328px;
+    margin: -199px 0px 0px -99px;
+    height: 324px;
+}
+.jupiter .title{
+    margin: -190px 0px 0px -70px;
+    font-size: 55px;
+}
+.jupiter .txt{
+    position: absolute;
+    color: white;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    width: 23%;
+    margin: 140px 0px 0px -90px;
+}
+.neptune{
+    background-color: #168eb349;
+    padding: 200px 100px;
+    width: 330px;
+    height: 530px;
+}
+.neptune img{
+    width: 328px;
+    margin: -199px 0px 0px -99px;
+    height: 324px;
+}
+.neptune .title{
+    margin: -190px 0px 0px -70px;
+    font-size: 55px;
+}
+.neptune .txt{
+    position: absolute;
+    color: white;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    width: 23%;
+    margin: 140px 0px 0px -90px;
+}
+.urane{
+    background-color: #32d9df5d;
+    padding: 200px 100px;
+    width: 330px;
+    height: 530px;
+}
+.urane img{
+    width: 328px;
+    margin: -199px 0px 0px -99px;
+    height: 324px;
+}
+.urane .title{
+    margin: -190px 0px 0px -70px;
+    font-size: 55px;
+}
+.urane .txt{
+    position: absolute;
+    color: white;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    width: 23%;
+    margin: 140px 0px 0px -90px;
+}
+.saturn{
+    background-color: #f8a71a65;
+    padding: 200px 100px;
+    width: 330px;
+    height: 530px;
+}
+.saturn img{
+    width: 328px;
+    margin: -199px 0px 0px -99px;
+    height: 324px;
+}
+.saturn .title{
+    margin: -190px 0px 0px -70px;
+    font-size: 55px;
+}
+.saturn .txt{
+    position: absolute;
+    color: white;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    width: 23%;
+    margin: 140px 0px 0px -90px;
+}
+
+/* ASTROS */
+.astros{
+    margin: 70px 0px 0px 0px;
+}
+.astros h1{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 35px;
+    margin: 0px 0px 50px 970px
+}
+.astros p{
+    font-family: 'Orbitron', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-size: 45px;
+    margin: 130px 0px 0px 40px;
+}
+.astros .d2{
+    margin: 0px 0px 0px 100px;
+}
+.astros .d2 div{
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 10px 20px;
+}
+.astros .sun p{
+    -webkit-text-stroke: 1px #4b3208
+}
+
+.sun{
+    background-image: url('../img/sol.jpg');
+    background-size: cover;
+    width: 330px;
+    height: 300px;
+}
+.tita{
+    background-image: url('../img/Titan.jpg');
+    background-size: cover;
+    width: 330px;
+    height: 300px;
+}
+.moon{
+    background-image: url('../img/lua.jpg');
+    background-size: cover;
+    width: 330px;
+    height: 300px;
+}
+.encelado{
+    background-image: url('../img/encelado.jpg');
+    background-size: cover;
+    width: 330px;
+    height: 300px;
+}
+.europe{
+    background-image: url('../img/europa.jpg');
+    background-size: cover;
+    width: 330px;
+    height: 300px;
+}
+.ceres{
+    background-image: url('../img/ceres.jpg');
+    background-size: cover;
+    width: 330px;
+    height: 300px;
+}
+
+/* ASTROS */
+.misterys{
+    margin: 70px 230px 0px 0px;
+}
+.misterys h1{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 35px;
+    margin: 0px 0px 50px 70px
+}
+.misterys p{
+    font-family: 'Orbitron', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-size: 45px;
+    margin: 130px 0px 0px 40px;
+}
+.misterys .d3 div{
+    margin-left: 100px;
+}
+.misterys .d3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 10px 20px;
+}
+.misterys .white p{
+    -webkit-text-stroke: 1px #000000
+}
+.black{
+    background-image: url('../img/buraco\ negro.jpg');
+    background-size: cover;
+    width: 430px;
+    height: 300px;
+    border-color: #c68516;
+    border-style: solid;
+}
+.white{
+    background-image: url('../img/buraco\ branco.jpg');
+    background-size: cover;
+    width: 430px;
+    height: 300px;
+    border-color: #c68516;
+    border-style: solid;
+}
+
+.banner{
+    background-image: url('../img/img8.png');
+    background-size: cover;
+    padding: 300px 0px 200px 0px;
+    margin: -170px 0px 0px 0px;
+}
+footer{
+    position: relative;
+    margin: -50px 0px 0px 0px;
+}
+
+
+
+

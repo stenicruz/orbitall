@@ -1,0 +1,171 @@
+body{
+    background-color: #0b0707;
+}
+
+/* HEADER */
+header{
+    background-image: url('../img/img1.png');
+    padding-bottom: 230px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+.menu{
+    margin: 0px -30px 0px 480px;
+}
+.logo img{
+    width: 290px;
+    height: 80px;
+    margin: 15px 0px 0px -100px;
+}
+.menu a{
+    margin: 0px 0px 0px 35px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.menu a:hover{
+    color: #ffde59/*#c68516*/;
+    transition: 0.2s;
+}
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../css/Fontes/Orbitron/Orbitron-VariableFont_wght.ttf');
+}
+.txt{
+    position: relative;
+    margin: 160px 0px 0px 60px;
+    font-size: 40px;
+}
+.txt p{
+    color: white;
+}
+.h1{
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 30px;
+    font-size: 70px;
+}
+.h1 strong{
+    color: #ffde59;
+}
+
+/* SISTEMA SOLAR */
+.system{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 0px 0px 0px;
+}
+.img1 img{
+    height: 400px;
+    width: 700px;
+    border: #ffde59 solid 2px;
+    margin: 0px 200px 0px 0px;
+}
+.text1 .h2{
+    font-family: 'Orbitron', sans-serif;
+    color: #ffde59;
+    font-size: 45px;
+    font-weight: 500;
+    margin: -70px 0px 30px 0px;
+}
+.text1{
+    margin: 0px 0px 0px -150px;
+}
+.text1 p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+.text1 button{
+    margin: 60px 0px 0px 0px;
+    padding: 20px;
+    background-color: #ffde59;
+    border-style: none;
+}
+.text1 button a{
+    color: black;
+    font-weight: 150;
+    font-size: 18px;
+    padding: 20px 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+.text1 button:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.text1 button a:hover{
+    color: #c68516;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+/* ASTROS */
+.astros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 145px 0px 0px 0px;
+}
+.img2 img{
+    height: 400px;
+    width: 650px;
+    border: #ffde59 solid 2px;
+    margin: 0px 0px 0px 200px;
+}
+.text2 .h3{
+    font-family: 'Orbitron', sans-serif;
+    color: #ffde59;
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0px 0px 30px 0px;
+}
+.text2{
+    margin: 0px -180px 0px 0px;
+}
+.text2 p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+.text2 button{
+    margin: 40px 0px 0px 0px;
+    padding: 16px;
+    background-color: #ffde59;
+    border-style: none;
+}
+.text2 button a{
+    color: black;
+    font-weight: 150;
+    font-size: 18px;
+    padding: 20px 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+.text2 button:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.text2 button a:hover{
+    color: #c68516;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+/*BANNER */
+.banner{
+    margin: 160px 0px 100px 0px;
+    padding: 80px 0px;
+    background-image: url('../img/img4.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.banner p{
+    position: relative;
+    color: white;
+    font-family: 'Obitron', sans-serif;
+    font-size: 50px;
+}

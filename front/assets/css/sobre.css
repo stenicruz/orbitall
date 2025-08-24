@@ -1,0 +1,87 @@
+body{
+    background-color: #030302;
+}
+
+/* HEADER */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+.menu{
+    margin: 0px -30px 0px 480px;
+}
+.logo img{
+    width: 290px;
+    height: 80px;
+    margin: 15px 0px 0px -100px;
+}
+.menu a{
+    margin: 0px 0px 0px 35px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.menu a:hover{
+    color: #ffde59/*#c68516*/;
+    transition: 0.2s;
+}
+
+/* INFORMAÇÕES SOBRE NÓS */
+h1{
+    font-family: 'Orbitron', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-size: 95px;
+    margin: 70px 0px 50px 405px;
+}
+footer{
+    margin-top: -240px;
+    font-weight: 550;
+}
+.banner{
+    background-image: url('../img/img8.png');
+    background-size: cover;
+    padding: 0px 0px 600px 0px;
+    margin: -520px 0px 200px 0px;
+}
+section{
+    display: grid;
+    margin: 90px 0px 200px 0px;
+    color: white;
+}
+.d1{
+    background-color: #c68516;
+    padding: 45px 90px;
+    width: 50%;
+    margin: 0px 0px 0px 90px;
+}
+.d2{
+    background-color: transparent;
+    padding: 50px 90px;
+    width: 44%;
+    margin: -80px 0px 0px 680px;
+}
+.d3{
+    background-color: transparent;
+    padding: 50px 90px;
+    width: 44%;
+    margin: -90px 0px 0px 85px;
+}
+.d4{
+    background-color: #c68516;
+    padding: 45px 90px;
+    width: 44%;
+    margin: -80px 0px 0px 680px;
+}
+
+p{
+    font-size: 25px;
+}
+
+/* IMPORTAÇÕES */
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../css/Fontes/Orbitron/Orbitron-VariableFont_wght.ttf');
+}

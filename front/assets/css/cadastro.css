@@ -1,0 +1,71 @@
+body{
+    background-image: url('../img/img7.png');
+    background-size: cover;
+}
+
+/* HEADER */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+.menu{
+    margin: 0px -30px 0px 480px;
+}
+.logo img{
+    width: 290px;
+    height: 80px;
+    margin: 15px 0px 0px -100px;
+}
+.menu a{
+    margin: 0px 0px 0px 35px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.menu a:hover{
+    color: #ffde59/*#c68516*/;
+    transition: 0.2s;
+}
+
+
+section{
+    background-color: #c685165e;
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px 60px 0px;
+    margin: 80px 0px 90px 430px;
+    border-radius: 20px;
+}
+section div h1{
+    color: white;
+    margin: 10px 0px 60px 106px;
+    font-size: 43px;
+    font-family: 'Orbitron', sans-serif;
+}
+section div form input{
+    border-style: none;
+    background-color: white;
+    padding: 18px 120px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 0px 0px 25px 0px;
+}
+section div form button{
+    background-color: #645323;
+    border-style: none;
+    border-radius: 20px;
+    padding: 15px 50px;
+    color: white;
+    font-size: 20px;
+    margin: 20px 0px 15px 112px;
+}
+section div form p a{
+    color: white;
+    font-size: 18px;
+    margin: 15px 0px 0px 95px;
+    font-weight: 600;
+}

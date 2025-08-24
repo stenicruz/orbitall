@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none;}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Exo 2', sans-serif;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+/* IMPORTAÇÕES */
+@font-face {
+  font-family: 'Exo 2';
+  src: url('../css/Fontes/Exo2/Exo2-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../css/Fontes/Orbitron/Orbitron-VariableFont_wght.ttf');
+}
+
+
+
